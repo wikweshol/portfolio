@@ -1,0 +1,81 @@
+﻿body
+{
+
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(237,237,237,1) 50%, rgba(237,237,237,1) 100%);
+}
+.bgwrapper {
+background: url(images/face-t.png) no-repeat center 12vw;
+background-size: 30%;
+
+}
+
+
+.wmain h1 {
+font-size:4vw;
+width:100%;
+text-align:center;
+line-height:4.8vw;
+}
+
+.wmain {
+width: 80%;
+margin: 0 auto;
+font-family: "Spectral", sans-serif;
+padding: 5% 10%;
+}
+
+
+.wtitle {
+width:100%;
+ display:flex;
+ padding: 0 0 30vw 0;
+}
+
+.wtitle .box {
+width:45%;
+padding: 0 5% 0 0;
+}
+
+.wlogo {
+width:45%;
+padding: 0 0 0 5%;
+}
+
+.wtitle a {
+width:50%;
+display:block;
+}
+
+.wtitle a img {
+width: 6vw;
+margin: 0 auto;
+}
+
+.wtitle h2 {
+font-size: 4vw;
+text-align:right;
+letter-spacing: 0;
+font-weight: normal;
+line-height: 2.2vw;
+}
+
+.wtitle h2 span {
+font-size: 1.5vw;
+width:100%;
+display:block;
+letter-spacing: .3em;
+font-weight: bold;
+
+}
+
+.wbox {
+width: 45%;
+margin: 0 0 0 52.5%;
+padding: 0 0 0 2.5%;
+border-left: solid 0.1vw #13a89e;
+
+}
+
+p.winfo {
+font-size: 1.5vw;
+}
