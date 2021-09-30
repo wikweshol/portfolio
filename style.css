@@ -680,6 +680,7 @@ margin: 1%;
 @media only screen and (max-width: 1200px) {
     .wmain {
     width:90%;
+    padding:5%;
     }
 
     .wtitle h2 {
@@ -696,14 +697,80 @@ margin: 1%;
     }
 
         ul li {
-        line-height:4vw;
+        line-height:3.5vw;
         }
 
-    ul li a {
-    font-size: 4vw;
+
+
+    .wmain-menu ul li {   
+    text-align:left;
+        margin: 1vw 0;
+    }
+
+    .wmain-menu ul {
+    display:block;
+    background: transparent;
     }
 
     .wmain h1 {
     margin-bottom: 2vw;
     }
+
+    .wtitle a img {
+    width: 9vw;
+    }
+
+    nav.wsubstory {
+    width:100%;
+    }
+
+    .wmain.wmainsub {
+    
+    width:90%;
+    }
+
+    nav.wsubstory ul li a {
+    font-size:1.5vw;
+    }
+
+        ul li a, p.winfo, .wmain-menu ul li a, h3.filrtitle, .tech h4, .wwork h3, .waboutbox h6   {
+    font-size: 3vw;
+    line-height:3.5vw;
+    }
+
+    .wwork h3   {
+    font-size: 3vw;
+    line-height:3.5vw;
+    }
+
+    
+    nav.wsubstory ul li a, .wsdesc ul li, .wskl ul li, .footer, .footer a, .wskillswraplight h5, .wworkdet p, .workplace p, .workplace a, .wworkdet a, .wskl ul li a, .waboutbox p, .quick a {
+        font-size: 2vw;
+    line-height:2.5vw;
+
+    }
+
+    nav.wsubstory ul li {
+    background: #ddd;
+    }
+
+    h3.filrtitle {
+    margin-bottom: 2vw;
+    }
+
+    .wworknr {
+    line-height: 3.6vw;
+    height: 3.6vw;
+    width: 3.6vw;
+    background: #13a89e;
+    color: white;
+    text-align: center;
+    margin-right: 0.5vw;
+    font-size: 2vw;
+}
+
+.workdetborder {
+margin-left: 1.8vw;
+}
+
 }
