@@ -30,7 +30,7 @@ a, button {
 font-family: "Spectral", sans-serif;
 color: #13a89e;
 text-decoration:none;
-font-size:1.1vw;
+font-size:1.0vw;
 line-height:1.4vw;
 outline: none;
 }
@@ -260,9 +260,18 @@ text-align:right;
 
 }
 
+.wroll ul li {
+    line-height: 1.4vw;
+    font-size:1.0vw;
+    padding-left: 1.3vw;
+    padding-top: 0;
+    margin-bottom: 0.2vw;
+
+}
+
 .wworkdet a {
     line-height: 1.4vw;
-    font-size:1.1vw;
+    font-size:1.0vw;
     padding-left: 1.3vw;
     padding-top: 1.2vw;
     padding-bottom: 2.2vw;
@@ -443,6 +452,17 @@ width: 100%;
 .wsdesc ul li {
 text-align:left;
 width:100%;
+font-size:1vw;
+padding:0 0 0.3vw;
+
+
+}
+
+
+.wsdesc ul li:before {
+    content: "⚬  ";
+    counter-increment: list;
+        color: #13a89e;
 }
 
 .wskillswraplight {
@@ -472,6 +492,11 @@ border-right: solid 0.1vw #13a89e;
 padding-right:2vw;
 }
 
+.wskl ul li a {
+font-size:1vw;
+text-align:right;
+padding:0;
+}
 
 .waboutwrap {
 display: grid;
@@ -562,7 +587,7 @@ cursor: text;
 .footer {
 border-top: solid 0.1vw #13a89e;
 width: 100%;
-text-align:center;
+text-align:left;
 padding: 1vw 0;
 margin-top: 4vw;
 line-height: 1.4vw;
@@ -573,4 +598,112 @@ font-size: 1.0vw;
 line-height: 1.4vw;
 font-size: 1.0vw;
 color: #13a89e;
+}
+
+.wroll {
+    margin-top: 1.5vw;
+}
+
+.wroll ul li {
+text-align:left;
+}
+
+.wroll ul li:before {
+    content: "✓ ";
+    counter-increment: list;
+    color: #13a89e;
+}
+
+nav.wsubstory {
+width:60%;
+}
+
+nav.wsubstory ul {
+display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: raw;
+    margin:0 0 3vw 0;
+}
+
+nav.wsubstory ul li {
+text-align:center;
+width: 98%;
+margin: 0 1%;
+background: #ededed;
+
+}
+
+nav.wsubstory ul li a {
+font-size:0.8vw;
+line-height:1vw;
+padding:2% 2%;
+display:block;
+
+}
+
+nav.wsubstory ul li a:hover {
+color:#fff;
+text-decoration:none;
+}
+
+nav.wsubstory ul li:hover {
+background: #0f847c;
+
+}
+
+nav.wsubstory ul li a.active {
+color:#000;
+text-decoration:none;
+cursor: text;
+}
+
+nav.wsubstory ul li a.active, nav.wsubstory ul li a.active:before {
+color:#000;
+text-decoration:none;
+cursor: text;
+background: #ededed;
+    content: "✓ ";
+    counter-increment: list;
+}
+
+nav.wsubstory ul li a:focus {
+color:#000;
+text-decoration:none;
+}
+
+h3.filrtitle {
+font-size: 1vw;
+margin: 1%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .wmain {
+    width:90%;
+    }
+
+    .wtitle h2 {
+        font-size: 7vw;
+        line-height:4vw;
+    }
+
+    .wtitle h2 span {
+    font-size: 3vw;
+    }
+
+    .wmain h1 {
+    font-size: 8vw;
+    }
+
+        ul li {
+        line-height:4vw;
+        }
+
+    ul li a {
+    font-size: 4vw;
+    }
+
+    .wmain h1 {
+    margin-bottom: 2vw;
+    }
 }
