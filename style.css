@@ -744,7 +744,7 @@ margin: 1%;
     }
 
     
-    nav.wsubstory ul li a, .wsdesc ul li, .wskl ul li, .footer, .footer a, .wskillswraplight h5, .wworkdet p, .workplace p, .workplace a, .wworkdet a, .wskl ul li a, .waboutbox p, .quick a {
+    nav.wsubstory ul li a, .wsdesc ul li, .wskl ul li, .footer, .footer a, .wskillswraplight h5, .wworkdet p, .workplace p, .workplace a, .wworkdet a, .wskl ul li a, .waboutbox p, .quick a, .wroll ul li {
         font-size: 2vw;
     line-height:2.5vw;
 
