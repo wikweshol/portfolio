@@ -677,6 +677,10 @@ font-size: 1vw;
 margin: 1%;
 }
 
+.wskl ul li {
+margin: 0.3vw 0;
+}
+
 @media only screen and (max-width: 1200px) {
     .wmain {
     width:90%;
